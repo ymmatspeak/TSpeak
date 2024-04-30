@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Public Speaker Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="nav-container">
+			<h1 class="logo">Public Speaker</h1>
+			<nav>
+				<a href="#home" class="tab">Home</a>
+				<a href="#about" class="tab">About</a>
+				<a href="#blog" class="tab">Blog</a>
+				<a href="#videos" class="tab">Videos</a>
+				<a href="#onesheets" class="tab">One-Sheets</a>
+				<a href="#contact" class="tab">Contact</a>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="home">
+			<h1>Welcome to the Public Speaker Website</h1>
+			<p>Insert a brief introduction of the speaker here</p>
+		</section>
+		<section id="about">
+			<h2>About the Speaker</h2>
+			<p>Insert a detailed description of the speaker here</p>
+		</section>
+		<section id="blog">
+			<h2>Blog</h2>
+			<p>Insert blog content here</p>
+		</section>
+		<section id="videos">
+			<h2>Videos</h2>
+			<p>Insert video samples here</p>
+		</section>
+		<section id="onesheets">
+			<h2>One-Sheets</h2>
+			<p>Insert one-sheet documents for meeting planners here</p>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<p>Insert contact information here</p>
+		</section>
+	</main>
+</body>
+</html>

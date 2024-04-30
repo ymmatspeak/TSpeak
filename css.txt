@@ -1,0 +1,32 @@
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tab {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #333;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 5px 5px 0 0;
+	text-decoration: none;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.tab:hover {
+	background-color: #666;
+}
+
+.tab.active {
+	background-color: #fff;
+	color: #333;
+}
+
+.tab.active:hover {
+	background-color: #fff;
+	color: #333;
+}
